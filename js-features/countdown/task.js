@@ -1,8 +1,10 @@
-let elemetTimer = document.getElementById("timer");
+ let elementTimer = document.getElementById("timer");
+ 
 
 let timerInterval = setInterval(() => {
-    if (--timer === 0) {
-        return elemetTimer("timer");
+    if (--elementTimer === 0) {
+        clearInterval(timerInterval);
+        alert("Вы победили в конкурсе!");
+        return elementTimer("timer");
     }
-   alert("Вы победили в конкурсе!");
-}, 1000);
+}, 1000);  
