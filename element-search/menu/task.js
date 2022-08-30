@@ -17,8 +17,6 @@ for (let i = 0; i < mainElmsCount; i++) {
                 activeMenu.classList.remove('menu_active');          
             }
             subMenuItem.classList.add('menu_active');
-            return;
         }
-        return;
     });
 }
