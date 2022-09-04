@@ -1,5 +1,5 @@
-let banners = document.querySelectorAll('.reveal');
-let viewPortSize = window.innerHeight;
+const banners = document.querySelectorAll('.reveal');
+const viewPortSize = window.innerHeight;
 
 window.addEventListener('scroll', function() {
     for (let item of banners) {
